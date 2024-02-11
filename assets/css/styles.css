@@ -16,7 +16,9 @@ header{
     grid-area: header;
     padding: 20px;
 }
-
+.nav{
+    cursor: pointer;
+}
 
 #logo{
     
@@ -36,6 +38,7 @@ aside{
     padding: 20px;
 }
 
+
 aside .menu img{
     margin-bottom: 10px;
     cursor: pointer;
@@ -45,4 +48,8 @@ main{
     background-color: #F9F9F9;
     grid-area: main;
     padding: 25px;
+}
+
+main .video img{
+    cursor: pointer;
 }
