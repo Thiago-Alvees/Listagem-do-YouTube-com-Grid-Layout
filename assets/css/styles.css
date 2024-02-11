@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: grid;
+    grid-template: 
+    "header header header header" 80px
+    "aside main main main" 200px
+    "aside main main main" 200px
+    "aside main main main" 200px
+    / 1fr 5.7fr;
+}
+
+header{
+    grid-area: header;
+    padding: 20px;
+}
+
+
+#logo{
+    
+    margin-right: 120px;
+}
+
+#center{
+    margin-left: 200px;
+}
+
+#end{
+    margin-left: 180px;
+}
+
+aside{
+    grid-area: aside;
+    padding: 20px;
+}
+
+aside .menu img{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+main{
+    background-color: #F9F9F9;
+    grid-area: main;
+    padding: 25px;
+}
